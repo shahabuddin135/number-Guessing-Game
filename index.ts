@@ -18,9 +18,9 @@ do{
 
 
 if(numGame.userGuess === randomNumber){
-  console.log(chalk.bgGreen(`${randomNumber} is the correct answer!`));
+  console.log(chalk.bgGreen(`Yes!! ${randomNumber} is the correct answer!`));
 }else if(numGame.userGuess > randomNumber){
-  console.log(chalk.bgRed(`Yes!!  ${numGame.userGuess} is too high!`));
+  console.log(chalk.bgRed(`${numGame.userGuess} is too high!`));
 }else if(numGame.userGuess < randomNumber){
   console.log(chalk.bgBlueBright(`${numGame.userGuess} is too low!`));
   
